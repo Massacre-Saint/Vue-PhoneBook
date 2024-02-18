@@ -1,36 +1,52 @@
-# phonebook
+# Vue Phonebook App
 
-This template should help get you started developing with Vue 3 in Vite.
+## [View Demo Here](https://vue-phonebook-app.netlify.app)
 
-## Recommended IDE Setup
+This simple Vue application allows users:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Add contact information including phone number and email.
+- Remove contacts.
+- Search added contacts.
 
-## Customize configuration
+## Lessons Learned
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+My learning object for this app was to understand Vue fundamentals like:
 
-## Project Setup
+- V-for and v-model components
+- props and class binding
+- emitting custom events.
+  I also wanted to impliement a store to reduce prop drilling.
 
-```sh
-npm install
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone git@github.com:Massacre-Saint/Vue-PhoneBook.git
 ```
 
-### Compile and Hot-Reload for Development
+Go to the project directory
 
-```sh
-npm run dev
+```bash
+  cd Vue-PhoneBook
 ```
 
-### Compile and Minify for Production
+Install Packages including Vite, Vue, EsLint and Prettier
 
-```sh
-npm run build
+```bash
+   npm install
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+Start the server
 
-```sh
-npm run lint
+```bash
+  npm run dev
 ```
-# phonebook-vue
+
+## Tech Stack
+
+**Client:** Vue, JS, Bulma, Vite
+
+## Screenshots
+
+![App Screenshot](/src/assets/phonebook.png?raw=true 'App Screenshot')
